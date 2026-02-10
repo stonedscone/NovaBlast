@@ -1,0 +1,131 @@
+@font-face{
+    font-family: "Graffiti3D";
+    src: url("../novablast/fonts/graffonti.3d.drop.[fontvir.us].ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "GraffitiAtomic";
+    src: url("../novablast/fonts/graffonti.atomic.bomb.[fontvir.us].ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "GraffitiGradient";
+    src: url("../novablast/fonts/graffonti.gradient.fill.[fontvir.us].ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "MarsV";
+    src: url("../novablast/fonts/MARSNEVENEKSK.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Undertype";
+    src: url("../novablast/fonts/UnderType-pmOD.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    background-color: #ac9eff;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.header{
+    overflow: hidden;
+    background-color: #333;
+    padding: 30px 10px;
+    border-bottom: 1px solid #fff6e6ec;
+}
+
+.header a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo{
+    font-size: 27px;
+    font-weight: bold;
+    font-family: "Graffiti3D", serif;
+}
+
+.header a:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+    color: rgb(248, 189, 245);
+}
+
+.header-right{
+    float: right;
+    font-family: "Undertype", sans-serif;
+}
+
+.content-about{
+    margin-top: 5px;
+    overflow: auto; /*Makes it so that the border goes to bottom of image*/
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Courier New", sans-serif;
+    text-align: left;
+    background-color: #cfb8b8;
+    border: 6px solid #6c6d69;
+    border-radius: 15px;
+    
+}
+
+.content-main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.content-games{
+    margin-top: 20px;
+}
+
+#gameContainer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#gameBoard{
+    border: 3px solid;
+}
+
+#scoreText{
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;      
+}
+
+#resetBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 1500px;
+    cursor: pointer;
+}
+
+#resetBtn:hover{
+    background-color: #ffb3f2;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
